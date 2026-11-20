@@ -1,0 +1,5 @@
+{
+  "name": "Weight Price Calculator",
+  "description": "A fast and clean weight-to-price calculator for retail sellers. Calculate how much weight you get for a price, or the price for a specific weight instantly.",
+  "requestFramePermissions": []
+}

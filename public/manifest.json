@@ -1,0 +1,23 @@
+{
+  "name": "Weight-Price Calculator",
+  "short_name": "Weight Calc",
+  "description": "Quickly calculate weight from price or price from weight.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16A34A",
+  "theme_color": "#16A34A",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/calculator/192/192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://picsum.photos/seed/calculator/512/512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
