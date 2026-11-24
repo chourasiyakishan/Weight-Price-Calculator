@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { Scale, RotateCcw, Sun, Moon, IndianRupee, X } from 'lucide-react';
+import { RotateCcw, Sun, Moon, IndianRupee, X } from 'lucide-react';
 import { motion } from 'motion/react';
 import { PWAInstallButton } from './components/PWAInstallButton';
 import { OfflineIndicator } from './components/OfflineIndicator';
@@ -127,9 +127,11 @@ export default function App() {
         {/* Top Header Bar (Single-line on all screen sizes) */}
         <header className="flex items-center justify-between gap-2 pt-0 pb-2 sm:pt-0 sm:pb-4 border-b border-zinc-200 dark:border-zinc-800/80">
           <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-            <div className="p-1.5 sm:p-2 rounded-lg sm:rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-500 flex items-center justify-center shadow-sm shrink-0">
-              <Scale className="w-4 h-4 sm:w-6 sm:h-6" />
-            </div>
+            <img
+              src="/pwa-192x192.png"
+              alt="Weight-Price Calculator"
+              className="w-7 h-7 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl object-cover shadow-sm shrink-0"
+            />
             <h1 className="text-[15px] min-[390px]:text-base sm:text-2xl font-bold tracking-tight truncate">
               Weight-Price Calculator
             </h1>
